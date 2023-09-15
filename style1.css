@@ -1,0 +1,119 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+</style>
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#pills-tab{
+    justify-content: center;
+}
+
+#profile img{
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+#profile h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#profile h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .7;
+}
+
+#profile p{
+    line-height: 1.4;
+}
+
+section{
+    margin: 6rem 0;
+}
+
+#about-me h3, #education h3, #experience h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+    opacity: .8;
+}
+
+#about-me img{
+    width: 80%;
+    
+}
+
+.Social{
+    margin-top: 3rem;
+    display: flex;
+}
+
+.Social .link-list{
+    
+    
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-left: 0.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.facebook:hover{
+    background-color: #3b5998 !important;
+}
+
+.youtube:hover{
+    background-color: #c4302b;
+}
+
+.instagram:hover{
+    background-color:   #8a3ab9;
+}
+
+.link:hover{
+    background-color: #3366CC;
+}
+
+#education p{
+    line-height: .8rem;
+    
+}
+
+ .education-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+ .education-major {
+    opacity: .5;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+
+}
+
+.img-center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+@media screen and (max-width:768px){
+    
+    
+}
